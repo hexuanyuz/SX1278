@@ -1,0 +1,82 @@
+T3FF0 000:345.021   SEGGER J-Link V6.72d Log File
+T3FF0 000:346.883   DLL Compiled: May 15 2020 16:47:06
+T3FF0 000:347.172   Logging started @ 2023-03-20 03:41
+T3FF0 000:347.424 JLINK_SetWarnOutHandler(...)
+T3FF0 000:347.639 - 0.315ms
+T3FF0 000:347.853 JLINK_OpenEx(...)
+T3FF0 000:349.142   Firmware: J-Link V9 compiled Dec 13 2022 11:14:50
+T3FF0 000:349.634   Decompressing FW timestamp took 131 us
+T3FF0 000:355.402   Hardware: V9.20
+T3FF0 000:355.752   S/N: 25952313
+T3FF0 000:356.080   OEM: SEGGER
+T3FF0 000:356.438   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T3FF0 000:357.688   TELNET listener socket opened on port 19021
+T3FF0 000:358.654   WEBSRV Starting webserver
+T3FF0 000:359.235   WEBSRV Webserver running on local port 19080
+T3FF0 000:359.603 - 11.871ms returns "O.K."
+T3FF0 000:359.953 JLINK_SetErrorOutHandler(...)
+T3FF0 000:360.340 - 0.632ms
+T3FF0 000:361.038 JLINK_ExecCommand("ProjectFile = "I:\硅传资料夹V1.28\硅传Sub-1G模块资料\Semtech无线模块\SX1278ATR4-GC资料包\Demo程序\sx1278_Easy_Demo_v1.1\MDK-ARM\JLinkSettings.ini"", ...). 
+T3FF0 000:373.813   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T3FF0 000:374.700   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T3FF0 000:376.417   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T3FF0 000:596.101   Device "STM32F030C8" selected.
+T3FF0 000:597.145 - 236.355ms returns 0x00
+T3FF0 000:597.409 JLINK_ExecCommand("Device = STM32F030C8", ...). 
+T3FF0 000:597.868   Device "STM32F030C8" selected.
+T3FF0 000:598.873 - 1.355ms returns 0x00
+T3FF0 000:599.128 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3FF0 000:599.442 - 0.105ms returns 0x01
+T3FF0 000:599.648 JLINK_GetHardwareVersion()
+T3FF0 000:599.854 - 0.304ms returns 0x16760
+T3FF0 000:600.062 JLINK_GetDLLVersion()  returns 67204
+T3FF0 000:600.270 JLINK_GetFirmwareString(...)
+T3FF0 000:600.468 - 0.296ms
+T3FF0 000:600.671 JLINK_GetDLLVersion()  returns 67204
+T3FF0 000:600.872 JLINK_GetCompileDateTime()
+T3FF0 000:601.067 - 0.294ms
+T3FF0 000:601.271 JLINK_GetFirmwareString(...)
+T3FF0 000:601.469 - 0.296ms
+T3FF0 000:601.670 JLINK_GetHardwareVersion()
+T3FF0 000:601.868 - 0.296ms returns 0x16760
+T3FF0 000:602.075 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T3FF0 000:603.048 - 1.097ms returns 0x00
+T3FF0 000:603.296 JLINK_SetSpeed(5000)
+T3FF0 000:603.627 - 0.447ms
+T3FF0 000:604.096 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3FF0 000:604.305 - 0.309ms returns JLINKARM_RESET_TYPE_NORMAL
+T3FF0 000:604.506 JLINK_Reset()
+T3FF0 001:227.386   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3FF0 001:381.689   
+  ***** Error: 
+T3FF0 001:382.122   STM32: Connecting to CPU via connect under reset failed.
+T3FF0 001:610.968   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3FF0 001:767.988   
+  ***** Error: 
+T3FF0 001:769.229   STM32: Connecting to CPU via connect under reset failed.
+T3FF0 001:820.628 JLINK_GetId()
+T3FF0 001:926.065   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3FF0 002:083.297   
+  ***** Error: 
+T3FF0 002:083.732   STM32: Connecting to CPU via connect under reset failed.
+T3FF0 002:312.585   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3FF0 002:468.850   
+  ***** Error: 
+T3FF0 002:469.263   STM32: Connecting to CPU via connect under reset failed.
+T3FF0 002:520.589 - 700.443ms   returns 0x00000000
+T3FF0 002:521.464 JLINK_GetId()
+T3FF0 002:627.203   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3FF0 002:782.277   
+  ***** Error: 
+T3FF0 002:783.585   STM32: Connecting to CPU via connect under reset failed.
+T3FF0 003:012.652   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3FF0 003:169.648   
+  ***** Error: 
+T3FF0 003:170.940   STM32: Connecting to CPU via connect under reset failed.
+T3FF0 003:222.615 - 701.345ms   returns 0x00000000
+T3FF0 003:229.313 JLINK_GetFirmwareString(...)
+T3FF0 003:229.594 - 0.383ms
+T3FF0 008:050.825 JLINK_Close()
+T3FF0 008:059.872 - 9.228ms
+T3FF0 008:060.163   
+T3FF0 008:060.359   Closed
